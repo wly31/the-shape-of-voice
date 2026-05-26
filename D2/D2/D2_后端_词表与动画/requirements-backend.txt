@@ -1,0 +1,10 @@
+# 后端推理依赖（初步提交版，与完整 sign/requirements.txt 对齐核心项）
+django>=5.0,<6.0
+torch>=2.0
+torchvision>=0.15
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10.0
+mediapipe==0.10.21
+jieba>=0.42
+imageio-ffmpeg>=0.5
