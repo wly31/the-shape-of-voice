@@ -1,6 +1,5 @@
 # AI/深度学习模型设计说明
 ## 一、算法模型概览
-### 一、算法与模型汇总
 
 | 序号 | 算法/模型名称 | 应用场景 | 输入 | 输出 | 选型原因 | 竞品对比 |
 |:---:|:---|:---|:---|:---|:---|:---|
@@ -16,10 +15,8 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 
 ## 三、参考文献和开源代码仓库链接
-### 参考文献
 
-### 二、对应参考文献
-
+### 1、对应参考文献
 | 序号 | 算法/模型名称 | 参考文献 |
 |:---:|:---|:---|
 | 1 | MediaPipe Hand Landmarker | Lugaresi, C., et al. (2019). MediaPipe: A Framework for Building Perception Pipelines. *arXiv preprint arXiv:1906.08172*. |
@@ -29,7 +26,8 @@
 | 5 | Softmax | Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. (Chapter 6: Softmax Units for Multinoulli Output Distributions) |
 | 6 | 坐标归一化 | Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer. (Chapter 1: Data Preprocessing) |
 | 7 | OpenCV | Bradski, G. (2000). The OpenCV Library. *Dr. Dobb's Journal of Software Tools*. |
-### 开源代码仓库
+
+### 2.开源代码仓库
 | 来源 | 链接 |
 | :--- | :--- |
 |手部关键点检测| [MediaPipe Hands](https://developers.google.com/mediapipe) |
