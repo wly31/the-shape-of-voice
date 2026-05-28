@@ -3,6 +3,20 @@
 
 ## 一、数据库设计
 
+## E-R图
+
+```
+┌─────────────┐       ┌─────────────────┐       ┌─────────────┐
+│    User     │       │   Recognition   │       │    Sign     │
+│    用户     │──1:N──│    Record       │──N:M──│    Word     │
+│             │       │   识别记录      │       │   手语词汇   │
+└─────────────┘       └─────────────────┘       └─────────────┘
+
+字段说明：
+- User: id, username, password
+- RecognitionRecord: id, user_id, result, confidence, created_at
+- SignWord: id, word, video_url
+```
 
 ---
 
