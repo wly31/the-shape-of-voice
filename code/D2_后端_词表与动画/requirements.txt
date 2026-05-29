@@ -1,0 +1,4 @@
+# D2 词表与动画依赖
+jieba>=0.42
+Pillow>=10.0
+# 视频合成阶段还需：opencv-python, imageio-ffmpeg（接完整项目时安装）
