@@ -1,0 +1,9 @@
+django>=5.2,<6
+numpy
+pillow
+opencv-python
+jieba
+mediapipe==0.10.21
+torch
+torchvision
+imageio-ffmpeg
